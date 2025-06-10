@@ -1,0 +1,8 @@
+<suite name="WMS Suite" parallel="tests" thread-count="2">
+    <test name="ChromeTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ui.tests.InventoryTest"/>
+        </classes>
+    </test>
+</suite>
