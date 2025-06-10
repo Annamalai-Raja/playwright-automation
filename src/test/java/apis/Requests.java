@@ -23,7 +23,7 @@ public class Requests {
 
     public static void createSession(String cookie , String nodeId) {
         Map<String, Object> body = new HashMap<>();
-        body.put("binCodes", List.of("B01A-001A"));
+        body.put("binCodes", List.of(""));//TODO DYNAMIC BIN ID
         body.put("numberOfWorkersToAssign", 1);
 
         RequestOptions options = RequestOptions.create()
